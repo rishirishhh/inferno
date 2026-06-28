@@ -12,7 +12,7 @@ services:
 
     volumes:
       - postgres_data:/var/lib/postgresql/data
-
+      - ./infra/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - inferno-network
 

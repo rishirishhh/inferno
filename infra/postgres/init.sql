@@ -1,0 +1,7 @@
+CREATE DATABASE auth_db;
+
+CREATE DATABASE user_db;
+
+CREATE DATABASE wallet_db;
+
+CREATE DATABASE betting_db;
